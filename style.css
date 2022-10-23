@@ -28,14 +28,26 @@ body{
     cursor: pointer;
 }
 
+.hamburgerIcon{
+    padding: 0;
+    margin: 0;
+}
+
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 20px;
+    padding: 20px 20px 0px ; 
     width: 100%;
-    padding-left: 20px;
-    }
+    
+}
+
+.headerClosed{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 0;
+}
 
 .logo{
     transition: linear 0.3s all;
@@ -114,6 +126,13 @@ footer{
     padding-left: 10px;
 }
 
+.footerClosed{
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .paragraphs{
     margin-right:30px ;
     line-height: 16px;
@@ -130,6 +149,10 @@ p{
 .photoUser{
     height: 45px;
     border-radius: 10px;
+}
+
+.imgLogoOut{
+    margin: 0;
 }
 
 .closed{
