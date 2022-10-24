@@ -32,8 +32,6 @@ function closedAndOpen ({target}){
 
     header.classList = 'headerClosed'
     
-
-    
     control = false
     
   }else{// bloco que abre o sidebar e todas as outras tags

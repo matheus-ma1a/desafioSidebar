@@ -89,7 +89,7 @@ body{
 }
 
 .closedInput{
-    transition: all linear 0.3s;
+    transition: all linear 0.1s;
     width: 50px;
     display: flex;
     justify-content: center;
@@ -143,7 +143,7 @@ p:nth-last-of-type(2){
 }
 
 p{
-    transition: all linear 0.3s;
+    transition: all linear 0.1s;
 }
 
 .photoUser{
@@ -158,4 +158,3 @@ p{
 .closed{
     width: 78px;
 }
-
